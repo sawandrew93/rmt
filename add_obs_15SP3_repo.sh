@@ -24,21 +24,10 @@ zypper ar -f -G $BASE_URL/Products/SLE-Module-Legacy/15-SP3/x86_64/product/ SLE-
 zypper ar -f -G $BASE_URL/Updates/SLE-Module-Legacy/15-SP3/x86_64/update/ SLE-Legacy-Updates
 
 # Python 2
-zypper ar -f -G $BASE_URL/Products/SLE-Module-Python2/15-SP3/x86_64/product//15-SP3/x86_64/product/ SLE-Python2-Pool
+zypper ar -f -G $BASE_URL/Products/SLE-Module-Python2/15-SP3/x86_64/product/ SLE-Python2-Pool
 zypper ar -f -G $BASE_URL/Updates/SLE-Module-Python2/15-SP3/x86_64/update/ SLE-Python2-Updates-Updates
-
-# SAP Business One
-zypper ar -f -G $BASE_URL/Products/SLE-Module-SAP-Business-One/15-SP3/x86_64/product/ SLE-SAPB1-Pool
-zypper ar -f -G $BASE_URL/Updates/SLE-Module-SAP-Business-One/15-SP3/x86_64/update/ SLE-SAPB1-Updates
 
 # Server Applications
 zypper ar -f -G $BASE_URL/Products/SLE-Module-Server-Applications/15-SP3/x86_64/product/ SLE-ServerApps-Pool
 zypper ar -f -G $BASE_URL/Updates/SLE-Module-Server-Applications/15-SP3/x86_64/update/ SLE-ServerApps-Updates
 
-# Systems Management
-zypper ar -f -G $BASE_URL/Products/SLE-Module-Systems-Management/15-SP3/x86_64/product/ SLE-SystemsMgmt-Pool
-zypper ar -f -G $BASE_URL/Updates/SLE-Module-Systems-Management/15-SP3/x86_64/update/ SLE-SystemsMgmt-Updates
-
-# Web and Scripting
-zypper ar -f -G $BASE_URL/Products/SLE-Module-Web-Scripting/15-SP3/x86_64/product/ SLE-WebScripting-Pool
-zypper ar -f -G $BASE_URL/Updates/SLE-Module-Web-Scripting/15-SP3/x86_64/update/ SLE-WebScripting-Updates
